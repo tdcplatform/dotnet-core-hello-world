@@ -25,7 +25,7 @@ namespace HelloWeb
                         .UseContentRoot(Directory.GetCurrentDirectory())
                         .UseIISIntegration()
                         .UseStartup<Startup>()
-                        .UseUrls("http://localhost:8086", "https://localhost:8087")
+                        .UseUrls("http://localhost:8086")
                         .Build();
             host.Run();
             
